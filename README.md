@@ -1,3 +1,4 @@
+
 # INTRODUCTION
 
 Calculating the run time of various algorithms for larger inputs.
@@ -49,5 +50,21 @@ TIME COMPLEXITY = O(logn)
 
 ## POWER OF A NUMBER
 In this algorithm we multiply the number with the recursive call and decrease the power by 1 and when power becomes zero,we return 1.
+
+TIME COMPLEXITY = O(n)
+## MAGIC SQUARE
+A magic square of order n is an arrangement of n2 numbers, usually distinct integers, in a square, such that the n numbers in all rows, all columns, and both diagonals sum to the same constant. A magic square contains the integers from 1 to n2. 
+The constant sum in every row, column and diagonal are called the magic constant or magic sum, M.
+
+TIME COMPLEXITY = O(n^2)
+## MERGING OF TWO SORTED LISTS
+Create an array arr3[] of size n1 + n2.
+Simultaneously traverse arr1[] and arr2[]. 
+Pick smaller of current elements in arr1[] and arr2[], copy this smaller element to next position in arr3[] and move ahead in arr3[] and the array whose element is picked.
+If there are remaining elements in arr1[] or arr2[], copy them also in arr3[].
+
+TIME COMPLEXITY = O(n)
+## CORRECT POSITION OF PIVOT 
+The target of partitions is to place the pivot (any element can be chosen to be a pivot) at its correct position in the sorted array and put all smaller elements to the left of the pivot, and all greater elements to the right of the pivot.
 
 TIME COMPLEXITY = O(n)
