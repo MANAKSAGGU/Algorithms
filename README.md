@@ -68,3 +68,49 @@ TIME COMPLEXITY = O(n)
 The target of partitions is to place the pivot (any element can be chosen to be a pivot) at its correct position in the sorted array and put all smaller elements to the left of the pivot, and all greater elements to the right of the pivot.
 
 TIME COMPLEXITY = O(n)
+## MERGE SORT
+Merge sort is a recursive algorithm that continuously splits the array in half until it cannot be further divided i.e., the array has only one element left (an array with one element is always sorted). Then the sorted subarrays are merged into one sorted array.
+
+TIME COMPLEXITY = O(n*logn)
+## QUICK SORT
+The key process in quickSort is a partition(). The target of partitions is to place the pivot (any element can be chosen to be a pivot) at its correct position in the sorted array and put all smaller elements to the left of the pivot, and all greater elements to the right of the pivot.
+Partition is done recursively on each side of the pivot after the pivot is placed in its correct position and this finally sorts the array.
+
+TIME COMPLEXITY(average case) = O(nlogn)
+
+TIME COMPLEXITY(worst case) = O(n^2)
+## QUICK SORT(ITERATIVE)
+The process includes doing partition and putting the larger list in the stack and sorting the smaller list.This algorithm saves a lot of space.
+
+TIME COMPLEXITY = O(n*logn)
+## MAXIMUM AND MINIMUM (DIVIDE AND CONQUER)
+In this, the array is divided into two halves. Then using recursive approach maximum and minimum numbers in each halves are found. Later, return the maximum of two maxima of each half and the minimum of two minima of each half.
+
+TIME COMPLEXITY = O(n)
+## Kth SMALLEST 
+In this, we focus on calculating the kth smallest element from the list with the help of partition algorithm.
+
+TIME COMPLEXITY(WORST CASE) = O(n^2)
+
+## KNAPSACK
+Given the weights and profits of N items, in the form of {profit, weight} put these items in a knapsack of capacity W to get the maximum total profit in the knapsack.
+
+There are three methods through which the profit can be maximized :-
+
+1. non-increasing profit
+2. non-increasing profit/weight ratio
+3. non-decreasing weight
+
+TIME COMPLEXITY = O(n*logn)
+## JOB SELECTION
+In this, we are given with the starting and the ending time of the meetings,we are supposed to select the meetings in such a way so that maximum meetings can be held in a room.
+
+TIME COMPLEXITY = O(n*logn)
+## DIJKSTRA
+The algorithm maintains a set of visited vertices and a set of unvisited vertices. It starts at the source vertex and iteratively selects the unvisited vertex with the smallest tentative distance from the source. It then visits the neighbors of this vertex and updates their tentative distances if a shorter path is found. This process continues until the destination vertex is reached, or all reachable vertices have been visited.
+
+TIME COMPLEXITY = O(V^2)
+## PRIMS
+The algorithm starts with an empty spanning tree. The idea is to maintain two sets of vertices. The first set contains the vertices already included in the MST, and the other set contains the vertices not yet included. At every step, it considers all the edges that connect the two sets and picks the minimum weight edge from these edges. After picking the edge, it moves the other endpoint of the edge to the set containing MST. 
+
+TIME COMPLEXITY = O(V^2)
