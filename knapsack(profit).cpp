@@ -11,7 +11,7 @@ static bool cmp(item a,item b)
     return a.value>b.value;
 }
 
-double weight_knapsack(int W,item arr[],int n)
+double profit_knapsack(int W,item arr[],int n)
 {
     vector<item>v(arr,arr+n);
 
