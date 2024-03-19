@@ -48,7 +48,7 @@ int main()
     arr[2].value=2;
     arr[3].value=6;
     arr[4].value=8;
-    double val = weight_knapsack(10,arr,5);
+    double val = profit_knapsack(10,arr,5);
     cout << val << endl;
     return 0;
 }
